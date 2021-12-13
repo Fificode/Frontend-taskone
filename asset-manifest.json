@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Frontend-taskone/static/css/main.5aff8578.chunk.css",
+    "main.js": "/Frontend-taskone/static/js/main.fc0ee374.chunk.js",
+    "main.js.map": "/Frontend-taskone/static/js/main.fc0ee374.chunk.js.map",
+    "runtime-main.js": "/Frontend-taskone/static/js/runtime-main.bdf657a4.js",
+    "runtime-main.js.map": "/Frontend-taskone/static/js/runtime-main.bdf657a4.js.map",
+    "static/js/2.975e156d.chunk.js": "/Frontend-taskone/static/js/2.975e156d.chunk.js",
+    "static/js/2.975e156d.chunk.js.map": "/Frontend-taskone/static/js/2.975e156d.chunk.js.map",
+    "static/js/3.7fa266e2.chunk.js": "/Frontend-taskone/static/js/3.7fa266e2.chunk.js",
+    "static/js/3.7fa266e2.chunk.js.map": "/Frontend-taskone/static/js/3.7fa266e2.chunk.js.map",
+    "index.html": "/Frontend-taskone/index.html",
+    "static/css/main.5aff8578.chunk.css.map": "/Frontend-taskone/static/css/main.5aff8578.chunk.css.map",
+    "static/js/2.975e156d.chunk.js.LICENSE.txt": "/Frontend-taskone/static/js/2.975e156d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Frontend-taskone/static/media/mastercard.f60f723a.png",
+    "static/media/blackPowdur.ccdad50a.png": "/Frontend-taskone/static/media/blackPowdur.ccdad50a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdf657a4.js",
+    "static/js/2.975e156d.chunk.js",
+    "static/css/main.5aff8578.chunk.css",
+    "static/js/main.fc0ee374.chunk.js"
+  ]
+}
