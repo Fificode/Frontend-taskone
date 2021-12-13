@@ -1,38 +1,282 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section-one,  .section-two{
+  width: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.section-one{
+  display: flex;
+  justify-content: center;
+margin-top: 100px;
+}
+.section-one .container-one h1{
+  margin: 15px 0 25px -15px;
+  color: #1A1F36;
+  font-weight: 500;
+}
+.section-one .container-one h2{
+  margin: 15px 0;
+  color: #1A1F36;
+  font-weight: 600;
+}
+.pure-set{
+  color: #697386;
+}
+.profile{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+}
+.profile-letter{
+  color: #fff;
+  font-weight: 700;
+}
+.left-arrow{
+  color: #8792A2;
+  width: 15px;
+  height: 22px;
+ transform: translate(-23px, 15px);
+}
+.flex-arrow-product-name{
+display: flex;
+flex-direction: row;
+}
+.back-powdur-container{
+  margin: 30px 0 40px 0;
+}
+.back-powdur{
+  width: 300px;
+  height: 100%;
+  border-radius: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  
   }
-  to {
-    transform: rotate(360deg);
+.footer p{
+  margin-right: 20px;
+  color: #8792A2;
+}
+.footer-line{
+  border-right: 1px solid #8792A2;
+ 
+}
+/* Payment details section */
+.section-two .container-two{
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.section-two .payment-sections{
+  margin: 20px 0;
+}
+.section-two .payment-container{
+  margin: 80px 100px 40px 100px;
+}
+.section-two input, label{
+  display: block;
+}
+.section-two input{
+  display: block;
+padding: 5px;
+height: 30px;
+border-radius: 3px;
+
+}
+.email, .name-card, .country, .zip, .submit{
+  width: 100%;
+  border: 1px solid #3C4257;
+}
+
+.card-number{
+  width: 100%;
+  border: 1px solid #3C4257;
+  border-bottom: 0px;
+   background: url("visa.png") 260px no-repeat, url("mastercard.png") 280px no-repeat, url("amex.png") 300px no-repeat, url("discover.png") 325px no-repeat;
+  background-size: 20px, 20px, 20px, 20px;
+}
+.zip{
+  border-top: 0px;
+}
+.country{
+  
+  display: block;
+  padding: 5px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.section-two label{
+  margin: 10px 0 ;
+  font-size: 14px;
+}
+
+.apple-pay-btn{
+display: block;
+width: 100%;
+height: 30px;
+background: url("appleLogo.jpg") 140px no-repeat,#000 ;
+background-size: 20px;
+color: #fff;
+border-radius: 3px;
+border: none;
+text-align: center;
+cursor: pointer;
+
+}
+.border-bottom{
+  border-bottom: 1px solid rgba(60, 66, 87, 0.12);
+  width: 33%;
+  margin: 0 0 25px 0;
+
+ 
+}
+ .border-division{
+  border-bottom: 1px solid #3C4257;
+  margin: -2px 0 0 0 ;
+ 
+  
+} 
+
+.pay-card{
+  color: #8792A2;
+  font-size: 14px;
+  margin: 20px 7px;
+}
+.flex-card{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.flex-pay{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.submit{
+  text-align: center;
+  background-color: #3C4257;
+color: #8792A2;
+margin: 10px 0;
+cursor: pointer;
+}
+
+.card-date-year, .card-cvc{
+  width: 100%;
+  border: 1px solid #3C4257;
+  border-top: 0px;
+}
+.card-cvc{
+  background: url("cvc.png") right no-repeat;
+  background-size: 20px;
+}
+.card-date-year{
+  border-right: 0px;
+}
+.card-dy-container, .card-cvc-container{
+   width: 100%;
+}
+.footer-mobile{
+  display: none;
+}
+/* Media Queries */
+
+@media  (max-width: 767px){
+  .App-header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .section-one,  .section-two{
+    width: 100%;
+  }
+  .footer{display: none;}
+  .footer-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 50px 0;
+    padding: 50px 0;
+    }
+  .footer-mobile p{
+    margin-right: 20px;
+    color: #8792A2;
+  }
+  .footer-line{
+    border-right: 1px solid #8792A2;
+   
+  }
+  .section-two .payment-container{
+    margin: 80px 10px 50px 10px;
+  }
+
+  .border-bottom{
+   width: 30%;
+  }
+  
+  .card-number{
+     background: url("visa.png") 210px no-repeat, url("mastercard.png") 230px no-repeat, url("amex.png") 250px no-repeat, url("discover.png") 270px no-repeat;
+     background-size: 20px, 20px, 20px, 20px;
+    
+  }
+  
+  .apple-pay-btn{
+    background: url("appleLogo.jpg") 110px no-repeat,#000 ;
+    background-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px){
+  .card-number{
+    background: url("visa.png") 800px no-repeat, url("mastercard.png") 830px no-repeat, url("amex.png") 870px no-repeat, url("discover.png") 890px no-repeat;
+    background-size: 20px, 20px, 20px, 20px;
+   
+ }
+ 
+ .apple-pay-btn{
+   background: url("appleLogo.jpg") 425px no-repeat,#000 ;
+   background-size: 20px;
+   }
+   .App-header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .section-one,  .section-two{
+    width: 100%;
+  }
+  .footer{display: none;}
+  .footer-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+    margin: 100px 0 50px 0;
+    }
+  .footer-mobile p{
+    margin-right: 20px;
+    color: #8792A2;
+  }
+  .footer-line{
+    border-right: 1px solid #8792A2;
+   
+  }
+  .section-two .payment-container{
+    margin: 80px 10px 50px 10px;
+  }
+
+  .border-bottom{
+   width: 30%;
   }
 }
