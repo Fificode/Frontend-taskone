@@ -103,7 +103,7 @@ border-radius: 3px;
   width: 100%;
   border: 1px solid #3C4257;
   border-bottom: 0px;
-   background: url("visa.png") 260px no-repeat, url("mastercard.png") 280px no-repeat, url("amex.png") 300px no-repeat, url("discover.png") 325px no-repeat;
+   background: url("visa.png") 290px no-repeat, url("mastercard.png") 310px no-repeat, url("amex.png") 320px no-repeat, url("discover.png") 340px no-repeat;
   background-size: 20px, 20px, 20px, 20px;
 }
 .zip{
@@ -126,7 +126,7 @@ border-radius: 3px;
 display: block;
 width: 100%;
 height: 30px;
-background: url("appleLogo.jpg") 140px no-repeat,#000 ;
+background: url("appleLogo.jpg") 155px no-repeat,#000 ;
 background-size: 20px;
 color: #fff;
 border-radius: 3px;
